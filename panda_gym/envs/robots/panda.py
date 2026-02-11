@@ -32,6 +32,7 @@ class Panda(PyBulletRobot):
             sim,
             body_name="panda",
             file_name="franka_panda/panda.urdf",
+            # file_name="./urdf/franka_case/urdf/Franka_Research_3_v2.urdf",
             base_position=base_position,
             action_space=action_space,
             joint_indices=np.array([0, 1, 2, 3, 4, 5, 6, 9, 10]),
